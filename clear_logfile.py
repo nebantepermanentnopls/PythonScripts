@@ -25,10 +25,10 @@ if os.path.isfile(file_name):
 
                 if os.path.isfile(src):
                     shutil.copyfile(src, dst)
-                    print(src + ' -> ' + dst)
+                    print('Copying:' + src + ' -> ' + dst)
 
             shutil.copyfile(file_name, file_name + '_1')
-            print(file_name + '   -> ' + file_name + '_1')
+            print('Copying:' + file_name + '   -> ' + file_name + '_1')
         with open(file_name, 'w'):
-            print(file_name, 'is cleaned...')
+            print('Cleaning:' + file_name)
         print('Done')
