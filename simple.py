@@ -9,7 +9,7 @@
 #        print(i)
 
 simple = []
-for i in range(2, 200000):
+for i in range(2, 500):
     for j in simple:
         if i % j == 0:
             break
