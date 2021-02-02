@@ -18,7 +18,7 @@
 #        simple.append(i)
 # print(simple)
 
-
+print(2)
 cache = [2]      # 1000
 for i in range(3, 110000, 2):
     flag = True
