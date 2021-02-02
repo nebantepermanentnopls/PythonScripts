@@ -19,8 +19,8 @@
 # print(simple)
 
 
-cache = []      # 1000
-for i in range(2, 100000):
+cache = [2]      # 1000
+for i in range(3, 110000, 2):
     flag = True
     if len(cache) == 1000:          # когда кэш заполнен начинаем проверку с чисел, которые лежат до 0го элемента кэша
         for j in range(2, cache[0]):
